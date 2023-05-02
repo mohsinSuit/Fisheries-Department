@@ -54,3 +54,11 @@
          document.getElementById("married").style.display = "none";
      }
  }
+ document.getElementById("typeoffish").onclick = function() {
+     var selectedOption = this.value;
+     if (selectedOption == "Other") {
+         document.getElementById("othertype").style.display = "block";
+     } else {
+         document.getElementById("othertype").style.display = "none";
+     }
+ }

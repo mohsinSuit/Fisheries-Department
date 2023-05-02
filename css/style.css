@@ -5,7 +5,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #0C1C5F;
+    background-color: #14B8CF;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -22,7 +22,7 @@
     display: block;
     transition: 0.3s;
     border-radius: 20px;
-    background-color: #61AFE4;
+    background-color: #0E86D4;
     margin-left: 30px;
     margin-right: 10px;
     margin-top: 10px;
