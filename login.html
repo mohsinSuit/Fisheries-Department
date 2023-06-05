@@ -12,11 +12,25 @@
             padding: 0;
         }
         
-        .container {
-            width: 300px;
-            margin: 0 auto;
-            margin-top: 100px;
+        footer {
             text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background: #20222438;
+            margin-top: 10px;
+        }
+        
+        .kurtlar {
+            color: gray;
+        }
+        
+        .container {
+            width: 200px;
+            margin: 0 auto;
+            padding: 90px;
+            margin-top: 50px;
+            text-align: center;
+            border-style: groove;
         }
         
         .logo {
@@ -45,7 +59,7 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="image/fisheries logo.png" alt="Logo" width="100">
+            <img src="image/fisheries logo.png" alt="Logo" width="150px">
         </div>
         <form action="login.php" method="POST">
             <input type="text" name="username" placeholder="Username" required>
@@ -53,6 +67,9 @@
             <button class="login-btn" type="submit">Login</button>
         </form>
     </div>
+    <footer>
+        <p>Developed By <a href="https://www.suit.edu.pk/">SUIT Incubation</a> © <a class="kurtlar" href="https://www.kurtlardeveloper.com/">Kurtlar developers</a></p>
+    </footer>
 </body>
 
 </html>
