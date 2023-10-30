@@ -42,6 +42,8 @@ ui-lightness/jquery-ui.css' rel='stylesheet'>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
     </script>
@@ -213,6 +215,11 @@ ui-lightness/jquery-ui.css' rel='stylesheet'>
                                 </option>
                               
                             </select>
+                                            <script>
+                                                $(document).ready(function() {
+                                                    $('#Select-DDLDesignation').select2();
+                                                });
+                                            </script>
                                         </div>
                                     </div>
 
@@ -221,7 +228,7 @@ ui-lightness/jquery-ui.css' rel='stylesheet'>
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="fw-bold">To Designation</label>
-                                            <select name="" id="Select-DDLDesignation" class="form-control select2">
+                                            <select name="" id="Select-DDLDesignation2" class="form-control select2">
                                 <option value="">Choose</option>
                                 <option value="">DIRECTOR GENERAL FIHERIES
                                 </option>
@@ -339,6 +346,11 @@ ui-lightness/jquery-ui.css' rel='stylesheet'>
                                 </option>
                               
                             </select>
+                                            <script>
+                                                $(document).ready(function() {
+                                                    $('#Select-DDLDesignation2').select2();
+                                                });
+                                            </script>
                                         </div>
                                     </div>
 
