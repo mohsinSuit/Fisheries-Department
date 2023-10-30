@@ -6,8 +6,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Fisheries Department</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="Fisheries Department" name="description">
+    <meta content="Fisheries Department" name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/apple-touch-icon.png" rel="icon">
@@ -37,54 +37,66 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <!-- Template Main CSS File -->
     <link href="css/style.css" rel="stylesheet">
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/
+    ui-lightness/jquery-ui.css' rel='stylesheet'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <div id="mySidenav" class="sidenav" style="background-color: #14B8CF;">
-        <!-- <div class="form-group mr-3 mt-5">
-            <img id="log1" class="shadow" style="border: 1px #14B8CF; border-radius: 10%; margin-top: -4%; background-color:text-white" src="images/file_icon.png" width="120px;" height="130px">
-
-        </div> -->
-
-        <a class="dropdown-btn1 mt-5" style="background-color: #0E86D4;    width: 200px; margin-top: 190px !important;"> HR MIS
+        <a href="KPfishfarms.html" id="kp-fish-farm" style="margin-top: 190px !important;">KP Fish Farms</a>
+        <a class="dropdown-btn" id="water-bodies" style="width: 200px;"> Water Bodies
             <i class="fa fa-caret-down"></i>
         </a>
-        <div class="dropdown-container1">
-            <a href="information.html">Personal Info</a>
-            <a href="Qualification.html">Qualification</a>
-            <a href="familyinfo.html">Family Information</a>
-            <a href="InitialAppointment.html">Initial Appointment</a>
-            <a href="ServiceHistory.html">Service History</a>
-            <a href="TrainingInformation.html">Training Info</a>
-            <a href="Promotion.html">Promotion info</a>
-            <a href="Transfer.html">Transfer info</a>
-            <a href="ACR.html">ACR</a>
-            <a href="Leave.html">Leave</a>
-        </div>
-        <a href="KPfishfarms.html">KP Fish Farms</a>
-        <a class="dropdown-btn" style=" background-color:  #0E86D4;   width: 200px;"> Water Bodies
-            <i class="fa fa-caret-down"></i>
-        </a>
-        <div class="dropdown-container">
+        <div class="dropdown-container" id="water-bodies-dd">
             <a href="KPWaterbodies.html">Dams</a>
             <a href="KPWaterBodies1.html">Rivers</a>
             <a href="KPWaterBodies2.html">Streams</a>
         </div>
-
+        <a class="dropdown-btn" id="sr" style="width: 200px;"> Statistics Report
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-container" id="sr-dd">
+            <a href="MonthlyStatistics.html">Monthly Report</a>
+            <a href="QuarterlyStatistics.html">Quarter Report</a>
+            <a href="annualstatistic.html">Annual Report</a>
+        </div>
+        <a class="dropdown-btn" id="sr" style="width: 200px;"> Licenses
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-container" id="sr-dd">
+            <a href="general.html">All kinds of Nets</a>
+            <a href="fishingRod.html">Fishing Rod</a>
+            <a href="fishingLine.html">Fishing Line</a>
+            <a href="castnet.html">Cast Net</a>
+            <a href="dipnet.html">Dip Net</a>
+            <a href="spearhand.html">Spear or Hand</a>
+            <a href="special.html">Special License</a>
+            <a href="dailynontrout.html">daily-non-trout</a>
+            <a href="dailytrout.html">daily-trout</a>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg" style="background-color:#14B8CF; height: 160px; width: 100%;">
+        <div class="container-fluid text-white text-center">
+            <div class="row w-100 justify-content-center" style="margin-left: 0.1%;">
+                <div class="col-md-2 col-lg-2 col-sm-12"> <img style="margin:auto;" width="160px" src="image/finallogo.png" alt=""></div>
+                <div class="col-md-8 col-lg-8 col-sm-12 m-auto">
+                    <h3 class="fw-bold m-5 text-white text-center " style="text-shadow: 0px 6px 15px black;font-family: initial;">Khyber Pakhtunkhwa Fisheries Department</h3>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-12"> <img class="logo" width="130px" src="image/logo.png" alt=""></div>
+            </div>
+        </div>
+    </nav>
 
     <div class="" id="main">
-        <nav class="navbar" style="background-color:#14B8CF; height: 160px;">
-            <div class="container-fluid text-white">
-                <div class="row w-100">
-                    <div class="col-md-2 col-lg-2 col-sm-12"> <img style="margin:auto;" width="150px" src="image/fisheries logo.png" alt=""></div>
-                    <div class="col-md-8 col-lg-8 col-sm-12 m-auto">
-                        <h3 class="fw-bold m-5 text-white text-center " style="text-shadow: 0px 6px 15px black;font-family: initial;">Khyber Pakhtunkhwa Fisheries Department</h3>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-sm-12"> <img class="logo" width="130px" src="image/logo.png" alt=""></div>
-                </div>
-            </div>
-        </nav>
         <div class="container-fluid">
             <div class="row my-4">
 
@@ -129,7 +141,46 @@
                                     <div class="col-md-4">
                                         <div class="form-group">
                                             <label class="fw-bold">District</label>
-                                            <input id="lName" type="text" name="" placeholder="District" class="form-control" autocomplete="off" required="">
+                                            <select name="" id="Select-DDLDistrict" class="form-control select2">
+                                <option value="">Choose</option>
+                                <option value="">Abbottabad District</option>
+                                <option value="">Bajaur District</option>
+                                <option value="">Bannu District</option>
+                                <option value="">Battagram District</option>
+                                <option value="">Buner District</option>
+                                <option value="">Charsadda District</option>
+                                <option value="">Dera Ismail Khan District</option>
+                                <option value="">Hangu District</option>
+                                <option value="">Haripur District</option>
+                                <option value="">Karak District</option>
+                                <option value="">Khyber District</option>
+                                <option value="">Kohat District</option>
+                                <option value="">Kolai-Palas District</option>
+                                <option value="">Kurram District</option>
+                                <option value="">Lakki Marwat District</option>
+                                <option value="">Lower Chitral District</option>
+                                <option value="">Lower Dir District</option>
+                                <option value="">Lower Kohistan District</option>
+                                <option value="">Lower South Waziristan District</option>
+                                <option value="">Malakand District</option>
+                                <option value="">Mansehra District</option>
+                                <option value="">Mardan District</option>
+                                <option value="">Mohmand District</option>
+                                <option value="">North Waziristan District</option>
+                                <option value="">Nowshera District</option>
+                                <option value="">Orakzai District</option>
+                                <option value="">Peshawar District</option>
+                                <option value="">Shangla District</option>
+                                <option value="">Swabi District</option>
+                                <option value="">Swat District</option>
+                                <option value="">Tank District</option>
+                                <option value="">Torghar District</option>
+                                <option value="">Upper Chitral District</option>
+                                <option value="">Upper Dir District</option>
+                                <option value="">Upper Kohistan District</option>
+                                <option value="">Upper South Waziristan District</option>
+                              
+                            </select>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -270,10 +321,10 @@
                                                                     <input type="text " name=" " placeholder="Other" class="form-control " autocomplete="off ">
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 ">
-                                                                <div class="form-group ">
-                                                                    <label class="fw-bold ">Fish Harvest</label>
-                                                                    <input type="date" name=" " placeholder="Fish Harvest " class="form-control " autocomplete="off " required=" ">
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label class="fw-bold">Fish Harvest</label>
+                                                                    <input id="txtharvest" class="form-control" required="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4 ">
@@ -284,8 +335,8 @@
                                                             </div>
                                                             <div class="col-md-4 ">
                                                                 <div class="form-group ">
-                                                                    <label class="fw-bold ">Unit KG</label>
-                                                                    <input type="text " name=" " placeholder="Unit KG " class="form-control " autocomplete="off " required=" ">
+                                                                    <label class="fw-bold ">Metric Ton</label>
+                                                                    <input type="text " name=" " placeholder="Weight in Metric Ton " class="form-control " autocomplete="off " required=" ">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4">
@@ -319,7 +370,7 @@
                                                                         <th scope="col">Type of Fish</th>
                                                                         <th scope="col">Fish Harvest</th>
                                                                         <th scope="col">Number of Fish</th>
-                                                                        <th scope="col">Unit KG</th>
+                                                                        <th scope="col">Metric Ton</th>
                                                                         <th scope="col">Type of Gear Used</th>
                                                                         <th scope="col">Update</th>
                                                                         <th scope="col">Delete</th>
@@ -371,16 +422,22 @@
                                                                     <input type="text " name=" " placeholder="Farmer Name " class="form-control " autocomplete="off " required=" ">
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-4 ">
-                                                                <div class="form-group ">
-                                                                    <label class="fw-bold ">Farmer CNIC </label>
-                                                                    <input type="text " name=" " placeholder="Farmer CNIC " class="form-control " autocomplete="off " required=" ">
+                                                            <div class="col-md-4">
+                                                                <div class="form-group">
+                                                                    <label class="fw-bold">Farmer CNIC</label>
+                                                                    <input id="farmerCNIC" type="text" name="" placeholder="CNIC" class="form-control" autocomplete="off" required="">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4 ">
                                                                 <div class="form-group ">
                                                                     <label class="fw-bold ">Farmer Qualification</label>
                                                                     <input type="text " name=" " placeholder="Farmer Qualification " class="form-control " autocomplete="off " required=" ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4 ">
+                                                                <div class="form-group ">
+                                                                    <label class="fw-bold ">Farmer Contact</label>
+                                                                    <input type="text " name=" " placeholder="Farmer Contact " class="form-control " autocomplete="off " required=" ">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4 ">
@@ -431,6 +488,20 @@
 
 
     </div>
+    <script>
+        $(document).ready(function() {
+            $("#txtharvest").inputmask("99-99-9999", {
+                "clearIncomplete": true
+            });
+            $("#farmerCNIC").inputmask("99999-9999999-9", {
+                "clearIncomplete": true
+            });
+            $('#txtharvest').datepicker({
+                uiLibrary: 'bootstrap5',
+                format: 'dd/mm/yyyy'
+            });
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js " integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p " crossorigin="anonymous "></script>

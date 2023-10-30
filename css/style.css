@@ -1,4 +1,17 @@
+/* body {
+    background-color: #14B8CF;
+} */
+
+body>.container {
+    background-color: white;
+}
+
+nav {
+    z-index: 2;
+}
+
 .sidenav {
+    padding-bottom: 5%;
     height: 100%;
     width: 250px;
     position: fixed;
@@ -6,7 +19,7 @@
     top: 0;
     left: 0;
     background-color: #14B8CF;
-    overflow-x: hidden;
+    overflow: auto;
     transition: 0.5s;
 }
 

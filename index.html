@@ -42,15 +42,12 @@
 <body>
     <!-- sidenav -->
     <div id="mySidenav" class="sidenav" style="background-color: #14B8CF;">
-        <div class="form-group mr-3 mt-5">
-            <img id="log1" class="shadow" style="border: 1px #14B8CF; border-radius: 10%; margin-top: -4%; background-color:text-white" src="images/file_icon.png" width="120px;" height="130px">
 
-        </div>
 
-        <a class="dropdown-btn1 mt-5" style="    width: 200px;"> HR MIS
+        <a class="dropdown-btn1 mt-5" id="hr" href="#" style="width: 200px; margin-top: 190px !important;"> HR MIS
             <i class="fa fa-caret-down"></i>
         </a>
-        <div class="dropdown-container1">
+        <div class="dropdown-container1" id="hr-dd">
             <a href="information.html">Personal Info</a>
             <a href="Qualification.html">Qualification</a>
             <a href="familyinfo.html">Family Information</a>
@@ -62,39 +59,61 @@
             <a href="ACR.html">ACR</a>
             <a href="Leave.html">Leave</a>
         </div>
-        <a href="KPfishfarms.html">KP Fish Farms</a>
-        <a class="dropdown-btn" style="    width: 200px;"> Water Bodies
+        <a href="KPfishfarms.html" id="kp-fish-farm">KP Fish Farms</a>
+        <a class="dropdown-btn" id="water-bodies" style="width: 200px;"> Water Bodies
             <i class="fa fa-caret-down"></i>
         </a>
-        <div class="dropdown-container">
+        <div class="dropdown-container" id="water-bodies-dd">
             <a href="KPWaterbodies.html">Dams</a>
             <a href="KPWaterBodies1.html">Rivers</a>
             <a href="KPWaterBodies2.html">Streams</a>
         </div>
-
+        <a class="dropdown-btn" id="sr" style="width: 200px;"> Statistics Report
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-container" id="sr-dd">
+            <a href="MonthlyStatistics.html">Monthly Report</a>
+            <a href="QuarterlyStatistics.html">Quarter Report</a>
+            <a href="annualstatistic.html">Annual Report</a>
+        </div>
+        <a class="dropdown-btn" id="sr" style="width: 200px;"> Licenses
+            <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-container" id="sr-dd">
+            <a href="general.html">All kinds of Nets</a>
+            <a href="fishingRod.html">Fishing Rod</a>
+            <a href="fishingLine.html">Fishing Line</a>
+            <a href="castnet.html">Cast Net</a>
+            <a href="dipnet.html">Dip Net</a>
+            <a href="spearhand.html">Spear or Hand</a>
+            <a href="special.html">Special License</a>
+            <a href="dailynontrout.html">daily-non-trout</a>
+            <a href="dailytrout.html">daily-trout</a>
+        </div>
     </div>
+    <nav class="navbar navbar-expand-lg" style="background-color:#14B8CF; height: 160px; width: 100%;">
+        <div class="container-fluid text-white text-center">
+            <div class="row w-100 justify-content-center" style="margin-left: 0.1%;">
+                <div class="col-md-2 col-lg-2 col-sm-12"> <img style="margin:auto;" width="160px" src="image/finallogo.png" alt=""></div>
+                <div class="col-md-8 col-lg-8 col-sm-12 m-auto">
+                    <h3 class="fw-bold m-5 text-white text-center " style="text-shadow: 0px 6px 15px black;font-family: initial;">Khyber Pakhtunkhwa Fisheries Department</h3>
+                </div>
+                <div class="col-md-2 col-lg-2 col-sm-12"> <img class="logo" width="130px" src="image/logo.png" alt=""></div>
+            </div>
+        </div>
+    </nav>
     <!-- sidenav end -->
 
     <div class="" id="main">
-        <nav class="navbar" style="background-color:#14B8CF; height: 160px;">
-            <div class="container-fluid text-white">
-                <div class="row w-100">
-                    <div class="col-md-2 col-lg-2 col-sm-12"> <img style="margin:auto;" width="150px" src="image/fisheries logo.png" alt=""></div>
-                    <div class="col-md-8 col-lg-8 col-sm-12 m-auto">
-                        <h3 class="fw-bold m-5 text-white text-center " style="text-shadow: 0px 6px 15px black;font-family: initial;">Khyber Pakhtunkhwa Fisheries Department</h3>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-sm-12"> <img class="logo" width="130px" src="image/logo.png" alt=""></div>
-                </div>
-            </div>
-        </nav>
+    </div>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 
-        <script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
